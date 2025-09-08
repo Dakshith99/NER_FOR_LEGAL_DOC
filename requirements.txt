@@ -1,0 +1,9 @@
+spacy
+bs4
+urllib3
+requests
+beautifulsoup4
+PyMuPDF
+flask
+wasabi
+nltk

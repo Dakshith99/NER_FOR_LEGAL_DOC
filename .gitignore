@@ -1,0 +1,17 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Ignore virtual environment
+venv/
+
+# Ignore large model files
+*.dll
+*.lib
+*.bin
+*.pth
+*.model
+
+# Ignore other unnecessary files
+__pycache__/
+*.pyc
+.idea/
