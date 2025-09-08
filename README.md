@@ -4,11 +4,9 @@ A lightweight Flask web app that performs Named Entity Recognition (NER) on lega
 
 ### Demo Screenshots
 
-Save your screenshots at the following paths so they render in this README:
-- `static/screenshots/home.png` (Home – upload view)
-- `static/screenshots/results.png` (Results – extracted entities)
 
 ![Home](static/screenshots/home.png)
+
 
 ![Results](static/screenshots/results.png)
 
@@ -33,7 +31,7 @@ legal_NER/
   static/
     styles.css
     main.js
-    screenshots/           # put screenshots here → home.png, results.png
+    screenshots/          
   training/
     config.cfg
     Combined_Data_Judgement_Preamble_spacy_format/
@@ -47,23 +45,6 @@ legal_NER/
 - Python 3.10+
 - Windows, macOS, or Linux
 
-### Setup
-```
-cd legal_NER
-
-# 1) Create and activate a virtual environment
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
-
-# 2) Install dependencies
-pip install -r requirements.txt
-
-# If you have a custom spaCy model, install/link it here
-# Example: spacy download en_core_web_trf (or your legal NER model)
-```
 
 ### Run the app
 ```
