@@ -57,9 +57,6 @@ python app.py
 2. Go to the PDF Upload tab, choose a file, and click Upload
 3. Review entities on the results page
 
-### Notes on large files and Git
-- Do not commit your `venv/` or large model binaries to Git. They are already added to `.gitignore`.
-- If you accidentally committed large files before, remove them from history with a tool like `git filter-repo`, then force push.
 
 ### License
 This project is for educational/research use. Adapt as needed for your organization.
